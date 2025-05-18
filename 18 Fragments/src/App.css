@@ -1,0 +1,16 @@
+.student {
+  border: 1px solid rgb(232, 183, 124);
+  border-radius: 4px;
+  background-color: antiquewhite;
+  margin-top: 10px;
+  padding-left: 10px;
+  width: 300px;
+  color: brown;
+}
+
+.container{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}  
