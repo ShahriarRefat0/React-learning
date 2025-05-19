@@ -1,16 +1,16 @@
 import AppName from "./component/AppName";
 import AddTodo from "./component/AddTodo";
-import TodoIteam1 from "./component/TodoIteam1";
-import TodoIteam2 from "./component/TodoIteam2";
+import TodoItem1 from "./component/TodoItem1";
+import TodoItem2 from "./component/TodoItem2";
 
 
 
 function App() {
-  return <center class='todo-container'>
+  return <center className='todo-container'>
     <AppName />
     <AddTodo />
-    <TodoIteam1/>
-    <TodoIteam2 />
+    <TodoItem1/>
+    <TodoItem2 />
 
   </center>
 }

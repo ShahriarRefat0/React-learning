@@ -1,21 +1,21 @@
-function TodoIteam1() {
+function TodoItem1() {
   let todoName = 'Go to College';
   let todoDate = '4/10/2025';
   return (
-    <div div class="container kg-row">
-    <div class="row">
-      <div class="col-6">
+    <div div className="container kg-row">
+    <div className="row">
+      <div className="col-6">
         {todoName}
       </div>
-      <div class="col-4">
+      <div className="col-4">
         {todoDate}
       </div>
-      <div class="col-2">
-        <button type="button" class="btn btn-danger kg-button">Delete</button>
+      <div className="col-2">
+        <button type="button" className="btn btn-danger kg-button">Delete</button>
       </div>
     </div>
   </div>
   );
 }
 
-export default TodoIteam1;
+export default TodoItem1;
