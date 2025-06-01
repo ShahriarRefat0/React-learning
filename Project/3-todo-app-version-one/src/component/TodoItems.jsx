@@ -5,10 +5,14 @@ const TodoItems = ({ todoItems }) => {
   return (
     <div className={css.ItemsContainer}>
       {todoItems.map((item) => (
-        <TodoItem key={item.name} todoDate={item.dueDate} todoName={item.name}></TodoItem>
+        <TodoItem
+          key={item.name}
+          todoDate={item.dueDate}
+          todoName={item.name}
+        ></TodoItem>
       ))}
     </div>
   );
-}
+};
 
-export default TodoItems
+export default TodoItems;

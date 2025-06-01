@@ -5,10 +5,15 @@ const TodoItems = ({ todoItems, onDeleteClick }) => {
   return (
     <div className={css.ItemsContainer}>
       {todoItems.map((item) => (
-        <TodoItem key={item.name} todoDate={item.dueDate} todoName={item.name} onDeleteClick={onDeleteClick}></TodoItem>
+        <TodoItem
+          key={item.name}
+          todoDate={item.dueDate}
+          todoName={item.name}
+          onDeleteClick={onDeleteClick}
+        ></TodoItem>
       ))}
     </div>
   );
-}
+};
 
-export default TodoItems
+export default TodoItems;
