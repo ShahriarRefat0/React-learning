@@ -1,6 +1,6 @@
 import ClockName from "./component/clockName";
 import ClockBody from "./component/ClockBody";
-import CurrentTime from "./component/CurentTime";
+import CurrentTime from "./component/CurrentTime";
 
 function App() {
   return <center>
