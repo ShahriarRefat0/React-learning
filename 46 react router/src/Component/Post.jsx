@@ -1,6 +1,6 @@
 import { useContext } from "react";
-import { TiDeleteOutline } from "react-icons/ti";
-import { PostList } from "../../Store/post-list-store";
+import { AiFillDelete } from "react-icons/ai";
+import { PostList } from "../store/post-list-store";
 
 const Post = ({ post }) => {
   const { deletePost } = useContext(PostList);
@@ -14,7 +14,7 @@ const Post = ({ post }) => {
             className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
             onClick={() => deletePost(post.id)}
           >
-            <TiDeleteOutline />
+            <AiFillDelete />
           </span>
         </h5>
         <p className="card-text">{post.body}</p>
@@ -23,8 +23,9 @@ const Post = ({ post }) => {
             {tag}
           </span>
         ))}
-        <div className="alert alert-success reaction" role="alert">
-          This post has been reacted by {post.reaction} people.
+        <div className="alert alert-success reactions" role="alert">
+          This post has been reacted by{" "}
+          {post.reactions.likes + post.reactions.dislikes} people.
         </div>
       </div>
     </div>
