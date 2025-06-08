@@ -1,8 +1,7 @@
-const WelcomeMessage = ({onGetPostsClick}) => {
+const WelcomeMessage = ({ onGetPostsClick }) => {
   return (
     <center className="welcome-message">
-      <h1>There is no mass</h1>
-      
+      <h1>There are no posts</h1>
     </center>
   );
 };
