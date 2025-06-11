@@ -13,4 +13,4 @@ const privacySlice = createSlice({
 
 export const privacyActions = privacySlice.actions;
 
-export default privacySlice.reducer;
+export default privacySlice;
