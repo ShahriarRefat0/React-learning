@@ -1,5 +1,5 @@
 import BagItem from "../Components/BagItem";
-import BagSummary from "../Components/BagSumary";
+
 
 
 const Bag = () => {
@@ -28,7 +28,7 @@ const Bag = () => {
         <div className="bag-items-container">
           <BagItem item={item}/>
         </div>
-        <BagSummary/>
+        
       </div>
     </main>
   )

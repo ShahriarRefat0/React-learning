@@ -2,9 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import "./index.css"
-import Bag from "./routes/Bag.jsx";
+
 import App from "./routes/App.jsx";
 import Home from "./routes/Home.jsx";
+import Bag from "./routes/Bag.jsx";
 
 
 const router = createBrowserRouter([
